@@ -4,7 +4,6 @@ import { AuthContext } from '../context/AuthContext';
 
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Import the CSS for styling
-import './LoginPage.css'; // Import the custom CSS for the login page
 
 const LoginPage = () => {
   const [credentials, setCredentials] = useState({ username: '', password: '' });
