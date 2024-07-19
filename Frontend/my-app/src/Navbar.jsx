@@ -4,7 +4,7 @@ import './Navbar.css'; // Import the custom CSS for the navbar
 
 const Navbar = () => {
   return (
-    <nav className="navbar" style={{"display":"flex","alignItems":"center"}}>
+    <nav className="navbar" >
       <ul className="navbar-list">
         <li className="navbar-item">
           <Link to="/" className="navbar-link">Home</Link>
