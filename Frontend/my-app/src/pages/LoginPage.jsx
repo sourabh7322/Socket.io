@@ -17,7 +17,7 @@ const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', credentials);
+      const response = await axios.post('https://socket-io-2oit.onrender.com/api/auth/login', credentials);
       login(response.data.token);
       toast.success('Login successful!');
     } catch (error) {
